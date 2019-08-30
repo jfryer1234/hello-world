@@ -1,0 +1,162 @@
+/* ==================
+      VARIABLES
+================== */
+:root {
+--light-gray: #F4F4F4;
+--dark-gray: #373737;
+--mint: #DCD0C0;
+--kelly-green: #C0B283;
+--body-font: 'Montserrat', sans-serif;
+--title-font: 'Montserrat', cursive;
+--title-font-filled: 'Montserrat', cursive;
+}
+
+/* * {
+	border: 1px solid gold;
+} */
+
+  body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+	font-family: var(--body-font);
+	color: var(--dark-gray);
+	/* margin: 0; */
+	align-content: center;
+	margin: 0 auto;
+
+  }
+
+  main {
+    flex: 1 0 auto;
+	text-align: center;
+	/* margin: 0;
+	width: 100%;
+	align-self: center; */
+  }
+
+
+  h1 {
+	font-size: 75px;
+	 letter-spacing: 10px;
+	 margin: 0 auto;
+  }
+
+
+
+  h1, h2, h3, h4 {
+	  font-family: var(--title-font);
+	  letter-spacing: 10px;
+	  color: #C0B283;
+  }
+
+  h5 {
+	  font-family: var(--title-font-filled);
+	  color: #373737;
+  }
+
+  p {
+	  font-family: var(--body-font);
+	  color: #373737;
+	  font-size: 20px;
+  }
+
+  a {
+	font-family: #C0B283;
+ 	color: #373737;
+  }
+
+  a:hover {
+	 font-size: 110%;
+  }
+
+/* .container {
+	width: 100%;
+	align-self: center;
+	margin: 0;
+} */
+  .parallax{
+    position:static;
+  }
+
+  .fab, .far {
+	  font-size: 30px;
+	  padding: 5px;
+  }
+
+  .fab:hover, .far:hover  {
+	  font-size: 40px;
+	  padding: 5px;
+	  margin: 5px;
+  }
+
+.skills {
+	width: 150px;
+	padding: 10px;
+}
+
+.skills:hover {
+	width: 200px;
+	padding: 10px;
+}
+
+.brand-logo{
+	margin: 0 15px;
+}
+
+.dani-logo {
+	margin-top: 5px;
+	width: 100px;
+}
+
+.brand-logo:hover{
+	font-size: 110%;
+}
+
+  #logo {
+	  width: 200px;
+	  margin: 0;
+	  padding: 0;
+  }
+
+  #small-logo {
+	  width: 50px;
+  }
+
+
+.green.lighten-2 {
+  background-color: #C0B283 !important;
+}
+.green {
+  background-color: #C0B283 !important;
+}
+
+.green.lighten-3 {
+  background-color: #DCD0C0 !important;
+
+}
+
+.black-text {
+  color: #373737 !important;
+  text-align: center;
+}
+
+h1 {
+  color: #373737 !important;
+
+}
+.black-text1 {
+  color: #373737 !important;
+}
+
+.white {
+  background-color: #DCD0C0 !important;
+}
+.blue-grey.lighten-4 {
+  background-color: #DCD0C0 !important;
+
+}
+/* .container {
+  background-color: #DCD0C0 !important;
+
+} */
