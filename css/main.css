@@ -6,9 +6,9 @@
 --dark-gray: #373737;
 --mint: #DCD0C0;
 --kelly-green: #C0B283;
---body-font: 'Montserrat', sans-serif;
---title-font: 'Montserrat', cursive;
---title-font-filled: 'Montserrat', cursive;
+--body-font: 'Hepta Slab', serif;
+--title-font: 'Hepta Slab', serif;
+--title-font-filled: 'Hepta Slab', serif;
 }
 
 /* * {
@@ -160,3 +160,23 @@ h1 {
   background-color: #DCD0C0 !important;
 
 } */
+
+#back {
+  background-color: #DCD0C0 !important;
+  width: 100%;
+  max-width: none;
+  height: 300px;
+}
+
+.header {
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+
+#something {
+  background-color: #F4F4F4 !important;
+}
+
+#footer {
+  background-color: #C0B283 !important;
+}
