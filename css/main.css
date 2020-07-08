@@ -151,27 +151,35 @@
     color: #373737 !important;
   }
 
-  /* .white {
+  .white {
+    background-color: #F4F4F4 !important;
+  }
+
+  .darker {
     background-color: #DCD0C0 !important;
-  } */
+  }
+
   .blue-grey.lighten-4 {
     background-color: #F4F4F4 !important;
 
   }
 
-  /* .container {
+  .gray {
+    background-color: #F4F4F4 !important;
+  }
+  .container {
     background-color: #DCD0C0 !important;
 
-  } */
+  }
 
   #back {
-    background-color: #DCD0C0 !important;
+    background-color: #F4F4F4 !important;
     width: 100%;
     max-width: none;
   }
 
   #screenShots {
-    background-color: #C0B283 !important;
+    background-color: #DCD0C0 !important;
     width: 100%;
     max-width: none;
   }
