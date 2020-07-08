@@ -70,11 +70,11 @@
 	 font-size: 110%;
   }
 
-  .container {
+  /* .container {
   	width: 100%;
-    align-items: baseline;
+    align-self: center;
   	margin: 0;
-  }
+  } */
   .parallax{
     position:static;
   }
@@ -167,11 +167,11 @@
     width: 100%;
     max-width: none;
   }
-
+/* 
   .header {
     margin-top: 30px;
     margin-bottom: 40px;
-  }
+  } */
 
   #something {
     background-color: #F4F4F4 !important;
