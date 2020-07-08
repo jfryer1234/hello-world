@@ -72,7 +72,6 @@
 
   .container {
   	width: 100%;
-  	align-self: center;
     align-items: baseline;
   	margin: 0;
   }
@@ -103,6 +102,15 @@
 
 .brand-logo{
 	margin: 0 15px;
+}
+
+.dani-logo {
+	margin-top: 5px;
+	width: 100px;
+}
+
+.brand-logo:hover{
+	font-size: 110%;
 }
 
   #logo {
