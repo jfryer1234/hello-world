@@ -157,16 +157,16 @@
 
   }
 
-  .container {
+  /* .container {
     background-color: #DCD0C0 !important;
 
-  }
+  } */
 
-  /* #back {
+  #back {
     background-color: #DCD0C0 !important;
     width: 100%;
     max-width: none;
-  } */
+  }
 
   .header {
     margin-top: 30px;
