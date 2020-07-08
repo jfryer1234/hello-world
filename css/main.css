@@ -29,7 +29,7 @@
 
   main {
     flex: 1 0 auto;
-	text-align: center;
+	  text-align: center !important;
 	/* margin: 0;
 	width: 100%;
 	align-self: center; */
@@ -42,7 +42,9 @@
 	 margin: 0 auto;
   }
 
-
+  .row {
+   margin-bottom: auto !important;
+  }
 
   h1, h2, h3, h4 {
 	  font-family: var(--title-font);
@@ -167,7 +169,7 @@
     width: 100%;
     max-width: none;
   }
-/* 
+/*
   .header {
     margin-top: 30px;
     margin-bottom: 40px;
