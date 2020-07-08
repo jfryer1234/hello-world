@@ -70,11 +70,12 @@
 	 font-size: 110%;
   }
 
-/* .container {
-	width: 100%;
-	align-self: center;
-	margin: 0;
-} */
+  .container {
+  	width: 100%;
+  	align-self: center;
+    align-items: baseline;
+  	margin: 0;
+  }
   .parallax{
     position:static;
   }
@@ -102,15 +103,6 @@
 
 .brand-logo{
 	margin: 0 15px;
-}
-
-.dani-logo {
-	margin-top: 5px;
-	width: 100px;
-}
-
-.brand-logo:hover{
-	font-size: 110%;
 }
 
   #logo {
@@ -149,9 +141,9 @@
     color: #373737 !important;
   }
 
-  .white {
+  /* .white {
     background-color: #DCD0C0 !important;
-  }
+  } */
   .blue-grey.lighten-4 {
     background-color: #DCD0C0 !important;
 
