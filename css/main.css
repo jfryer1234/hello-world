@@ -169,6 +169,13 @@
     width: 100%;
     max-width: none;
   }
+
+  #screenShots {
+    background-color: #C0B283 !important;
+    width: 100%;
+    max-width: none;
+  }
+
 /*
   .header {
     margin-top: 30px;
