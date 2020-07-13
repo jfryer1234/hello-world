@@ -181,11 +181,10 @@
   }
 
 
-  /* .header {
-    margin-top: 30px;
-    margin-bottom: 40px;
-    background-color: #F4F4F4 !important;
-  } */
+    .header {
+      margin-top: 30px;
+      margin-bottom: 40px;
+    }
 
   #something {
     background-color: #F4F4F4 !important;
